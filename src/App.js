@@ -21,7 +21,6 @@ class App extends Component {
     const addresses = {}
     this.setState({ status: null, addresses })
     for (var i = start; i <= end; i++) { addresses[i] = node.derive(0).derive(i).getAddress(); }
-    debugger
     this.setState({ status: 'ready', addresses })
   }
 
