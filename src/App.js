@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Bitcoin from 'bitcoinjs-lib'
-import logo from './logo.svg'
 import './App.css'
 
 class App extends Component {
